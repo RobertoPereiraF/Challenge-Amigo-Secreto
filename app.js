@@ -17,7 +17,7 @@
 
   // ======== Textos e ícones do botão ========
   const iconeSortear = '<img src="assets/play_circle_outline.png" alt="Ícone para sortear">';
-  const iconeReiniciar = '<img src="assets/restart_icon.png" alt="Ícone para reiniciar">';
+  const iconeReiniciar = '<img src="assets/restart_icon.svg" alt="Ícone para reiniciar">';
   const textoSortear = `${iconeSortear} Sortear amigo`;
   const textoReiniciar = `${iconeReiniciar} Reiniciar jogo`;
 
@@ -113,7 +113,11 @@
   window.adicionarAmigo = adicionarAmigo;
   window.sortearAmigo = sortearAmigo;
 })();
-// se você salvou como SVG
-const iconeReiniciar = `<img src="assets/restart_icon.svg" alt="Ícone para reiniciar">`;
+
+const iconeReiniciar = `
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-restart" viewBox="0 0 24 24">
+  <polyline points="1 4 1 10 7 10"/>
+  <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/>
+</svg>`;
 
 
