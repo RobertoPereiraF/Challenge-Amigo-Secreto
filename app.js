@@ -113,9 +113,7 @@
   window.adicionarAmigo = adicionarAmigo;
   window.sortearAmigo = sortearAmigo;
 })();
-
+// se você salvou como SVG
 const iconeReiniciar = `<img src="assets/restart_icon.svg" alt="Ícone para reiniciar">`;
-botaoSortear.innerHTML = `
-  ${iconeReiniciar}
-  Reiniciar jogo
-`;
+
+
