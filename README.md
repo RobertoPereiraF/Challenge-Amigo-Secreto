@@ -1,6 +1,6 @@
 # Challenge-Amigo-Secreto
 
-![Logo da Alura](https://www.alura.com.br/assets/img/alura-logo.svg) ![Logo da ONE](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgkbtyYuCcFzFWphrsxhFmc24DrcM1j-csvg&s)
+![Logo da Alura](https://www.alura.com.br/assets/img/alura-logo.svg)       ![logoone](assets/ONE.png)
 
 Neste desafio, desenvolveremos uma aplicação que permita aos usuários inserir nomes de amigos em uma lista para, em seguida, realizar um sorteio aleatório e determinar quem é o "amigo secreto".
 
