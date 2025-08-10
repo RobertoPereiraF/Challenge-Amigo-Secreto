@@ -1,33 +1,33 @@
 # Challenge-Amigo-Secreto
 
-![Logo da Alura](https://www.alura.com.br/assets/img/alura-logo.svg)       ![logoone](assets/ONE.png)
+![Logo da Alura](https://www.alura.com.br/assets/img/alura-logo.svg) ![logoone](assets/ONE.png)
 
-Neste desafio, desenvolveremos uma aplicação que permita aos usuários inserir nomes de amigos em uma lista para, em seguida, realizar um sorteio aleatório e determinar quem é o "amigo secreto".
+Neste desafio, desenvolvemos uma aplicação que permite aos usuários inserir nomes de amigos em uma lista para, em seguida, realizar um sorteio aleatório e determinar quem é o "amigo secreto".
 
-O usuário deverá adicionar nomes por meio de um campo de texto e de um botão "Adicionar".
+O usuário adiciona nomes por meio de um campo de texto e um botão "Adicionar". Os nomes inseridos aparecem em uma lista visível na página. Ao finalizar, o botão "Sortear Amigo" seleciona um nome aleatório e exibe o resultado na tela.
 
-Os nomes inseridos serão exibidos em uma lista visível na página e, ao finalizar, um botão "Sortear Amigo" selecionará um dos nomes de forma aleatória, exibindo o resultado na tela.
+Este desafio tem o objetivo de desenvolver lógica de programação usando funções básicas, como if/else, arrays e loops com for.
 
-Este é um desafio inicial que tem por objetivo desenvolver a lógica de programação com funções básicas como o if/else; arrays(listas) e loops usando a função for.
+---
 
 ## Funcionalidades
 
-- Adicionar nomes: Os usuários escreverão o nome de um amigo em um campo de texto e o adicionarão a uma lista visível ao clicar em "Adicionar".
-- Validar entrada: Se o campo de texto estiver vazio, o programa exibirá um alerta solicitando um nome válido.
-- Visualizar a lista: Os nomes inseridos aparecerão em uma lista abaixo do campo de entrada.
-- Sorteio aleatório: Ao clicar no botão "Sortear Amigo", um nome da lista será selecionado aleatoriamente e exibido na página.
-- Emite audio descritivo do nome adicionado
+- Adicionar nomes: usuários escrevem o nome de um amigo e adicionam à lista clicando em "Adicionar".
+- Validar entrada: se o campo estiver vazio, exibe um alerta pedindo um nome válido.
+- Visualizar lista: os nomes aparecem abaixo do campo de entrada.
+- Sorteio aleatório: ao clicar em "Sortear Amigo", um nome da lista é escolhido e exibido.
+- Emissão de áudio descritivo para o nome adicionado.
 
-## Como usar
+### Demonstração
 
-1.  Clone o repositório
-2.  Instale as dependências
-3.  Execute o programa
+ 
+> ![vídeo demonstrativo](assets/video.gif)
 
-## Contribuição
+---
 
-Se você quiser contribuir, siga estas etapas:
+## Instalação
 
-1.  Faça um fork do repositório
-2.  Crie uma branch com a sua feature
-3.  Faça um pull request
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/RobertoPereiraF/Challenge-Amigo-Secreto.git
