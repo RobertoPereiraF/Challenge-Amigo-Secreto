@@ -16,7 +16,7 @@ Este desafio tem o objetivo de desenvolver lógica de programação usando funç
 - Validar entrada: se o campo estiver vazio, exibe um alerta pedindo um nome válido.
 - Visualizar lista: os nomes aparecem abaixo do campo de entrada.
 - Sorteio aleatório: ao clicar em "Sortear Amigo", um nome da lista é escolhido e exibido.
-- Emissão de áudio descritivo para o nome adicionado.
+
 
 ### Demonstração
 
@@ -26,8 +26,72 @@ Este desafio tem o objetivo de desenvolver lógica de programação usando funç
 ---
 
 ## Instalação
-
+ 
 1. Clone o repositório:
 
 ```bash
 git clone https://github.com/RobertoPereiraF/Challenge-Amigo-Secreto.git
+```
+
+2. Acesse a pasta do projeto:
+
+```bash
+cd Challenge-Amigo-Secreto
+```
+
+
+## Dependências 
+
+* Navegador moderno compatível com JavaScript ES6+
+* (Opcional) Node.js para execução local via servidor de desenvolvimento
+
+## Como executar o projeto
+
+Como se trata de um projeto HTML/JS simples, basta abrir o arquivo index.html no navegador.
+Caso utilize Node.js ou um servidor local:
+
+```bash
+npm start
+```
+Em seguida, acesse no navegador:
+
+```bash
+http://localhost:3000
+```
+## Possíveis problemas e soluções
+
+* Erro ao rodar npm install
+
+    Certifique-se de que o Node.js está instalado corretamente.
+
+* O sorteio não funciona
+    
+    Verifique se ao menos um nome foi adicionado antes de clicar em "Sortear Amigo".
+
+
+## Contribuição
+
+Se quiser contribuir com melhorias:
+
+1. Faça um fork do repositório.
+
+2. Crie uma branch para sua feature:
+
+```bash
+git checkout -b minha-feature
+```
+3. Faça commit das alterações:
+
+```bash
+git commit -m "Descrição da alteração"
+```
+4. Envie para seu fork:
+
+```bash
+git push origin minha-feature
+```
+5. Abra um pull request neste repositório.
+
+## Licença
+
+Este projeto é open source e está disponível sob a licença MIT.
