@@ -1,7 +1,10 @@
-# Challenge-Amigo-Secreto
+# 🎁 Challenge-Amigo-Secreto
 
-![Logo da Alura](https://www.alura.com.br/assets/img/alura-logo.svg) ![logoone](assets/ONE.png)
+![logo ONE](assets/ONE.png)   ![Logo da Alura](https://www.alura.com.br/assets/img/alura-logo.svg)
 
+🎓 Primeiro desafio do programa Oracle Next Education (ONE) em parceria com a Alura.
+
+## 📝 Descrição
 Neste desafio, desenvolvemos uma aplicação que permite aos usuários inserir nomes de amigos em uma lista para, em seguida, realizar um sorteio aleatório e determinar quem é o "amigo secreto".
 
 O usuário adiciona nomes por meio de um campo de texto e um botão "Adicionar". Os nomes inseridos aparecem em uma lista visível na página. Ao finalizar, o botão "Sortear Amigo" seleciona um nome aleatório e exibe o resultado na tela.
@@ -10,7 +13,7 @@ Este desafio tem o objetivo de desenvolver lógica de programação usando funç
 
 ---
 
-## Funcionalidades
+## ⚙️ Funcionalidades
 
 - Adicionar nomes: usuários escrevem o nome de um amigo e adicionam à lista clicando em "Adicionar".
 - Validar entrada: se o campo estiver vazio, exibe um alerta pedindo um nome válido.
@@ -23,9 +26,16 @@ Este desafio tem o objetivo de desenvolver lógica de programação usando funç
  
 > ![vídeo demonstrativo](assets/video.gif)
 
----
 
-## Instalação
+---
+## 🚀 Tecnologias Utilizadas
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+
+## 💻 Instalação
  
 1. Clone o repositório:
 
@@ -40,12 +50,12 @@ cd Challenge-Amigo-Secreto
 ```
 
 
-## Dependências 
+## 🔗   Dependências 
 
 * Navegador moderno compatível com JavaScript ES6+
 * (Opcional) Node.js para execução local via servidor de desenvolvimento
 
-## Como executar o projeto
+## ▶️ Como executar o projeto
 
 Como se trata de um projeto HTML/JS simples, basta abrir o arquivo index.html no navegador.
 Caso utilize Node.js ou um servidor local:
@@ -58,7 +68,8 @@ Em seguida, acesse no navegador:
 ```bash
 http://localhost:3000
 ```
-## Possíveis problemas e soluções
+
+## 🛠️ Possíveis problemas e soluções
 
 * Erro ao rodar npm install
 
@@ -69,7 +80,7 @@ http://localhost:3000
     Verifique se ao menos um nome foi adicionado antes de clicar em "Sortear Amigo".
 
 
-## Contribuição
+## 🤝 Contribuição
 
 Se quiser contribuir com melhorias:
 
@@ -92,6 +103,10 @@ git push origin minha-feature
 ```
 5. Abra um pull request neste repositório.
 
-## Licença
+## 🪪 Licença
 
 Este projeto é open source e está disponível sob a licença MIT.
+
+## 👤 Autor
+
+Feito com ❤️ por [**RobertoPereiraF**](https://github.com/RobertoPereiraF) 🚀
