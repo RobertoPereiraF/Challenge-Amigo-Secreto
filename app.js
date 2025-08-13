@@ -72,40 +72,47 @@
   }
 
   // ======== Sorteia um amigo aleatoriamente evitando auto-sorteio ========
-  function sortearAmigo() {
-    if (jogoFinalizado) {
-      // Se o jogo acabou, o clique reinicia o jogo
-      reiniciarJogo();
-      return;
-    }
-
-    if (amigosRestantes.length === 0) {
-      // Quando todos forem sorteados, exibe alerta e muda estado
-      alert("Todos os amigos já foram sorteados!");
-      jogoFinalizado = true;
-      atualizarBotao(textoReiniciar);
-      return;
-    }
-
-    // Índice da pessoa que vai sortear: primeira é 0, depois 1, etc.
-    const indicePessoa = amigos.length - amigosRestantes.length;
-
-    let indiceSorteado, amigoSorteado;
-
-    // Garante que a pessoa não tire a si mesma
-    do {
-      indiceSorteado = Math.floor(Math.random() * amigosRestantes.length);
-      amigoSorteado = amigosRestantes[indiceSorteado];
-    } while (amigoSorteado === amigos[indicePessoa] && amigosRestantes.length > 1);
-
-    // Remove o amigo sorteado da lista de disponíveis
-    amigosRestantes.splice(indiceSorteado, 1);
-
-    // Exibe o resultado do sorteio na tela
-    const li = document.createElement('li');
-    li.textContent = `${amigos[indicePessoa]} tirou: ${amigoSorteado}`;
-    resultado.appendChild(li);
+function sortearAmigo() {
+  // Validação: lista vazia
+  if (amigos.length === 0) {
+    alert("Não há nomes na lista! Adicione pelo menos um amigo antes de sortear.");
+    return;
   }
+
+  if (jogoFinalizado) {
+    // Se o jogo acabou, o clique reinicia o jogo
+    reiniciarJogo();
+    return;
+  }
+
+  if (amigosRestantes.length === 0) {
+    // Quando todos forem sorteados, exibe alerta e muda estado
+    alert("Todos os amigos já foram sorteados!");
+    jogoFinalizado = true;
+    atualizarBotao(textoReiniciar);
+    return;
+  }
+
+  // Índice da pessoa que vai sortear: primeira é 0, depois 1, etc.
+  const indicePessoa = amigos.length - amigosRestantes.length;
+
+  let indiceSorteado, amigoSorteado;
+
+  // Garante que a pessoa não tire a si mesma
+  do {
+    indiceSorteado = Math.floor(Math.random() * amigosRestantes.length);
+    amigoSorteado = amigosRestantes[indiceSorteado];
+  } while (amigoSorteado === amigos[indicePessoa] && amigosRestantes.length > 1);
+
+  // Remove o amigo sorteado da lista de disponíveis
+  amigosRestantes.splice(indiceSorteado, 1);
+
+  // Exibe o resultado do sorteio na tela
+  const li = document.createElement('li');
+  li.textContent = `${amigos[indicePessoa]} tirou: ${amigoSorteado}`;
+  resultado.appendChild(li);
+}
+
 
   // ======== Expor as funções para serem chamadas pelo HTML ========
   window.adicionarAmigo = adicionarAmigo;
